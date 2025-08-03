@@ -18,6 +18,9 @@ const App = () => {
   return (
     <div style={styles.container}>
       <h2 style={styles.heading}>API Call Scheduler</h2>
+      <p style={{ textAlign: 'center', color: 'green' }}>
+  🔁 Auto-deployment test successful!
+</p>
       <form onSubmit={handleSubmit(onSubmit)} style={styles.form}>
         <div style={styles.inputGroup}>
           <label style={styles.label}>Duration (minutes):</label>
