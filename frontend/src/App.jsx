@@ -96,4 +96,7 @@ const styles = {
   },
 };
 
+console.log("🔁 New build triggered!");
+
+
 export default App;
